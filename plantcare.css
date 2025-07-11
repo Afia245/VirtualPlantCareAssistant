@@ -1,0 +1,158 @@
+#searchsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#searchsection #searchbox{
+    width:400px;
+    height:40px;
+    border-radius:5px;
+    border:2px solid black;
+    color:green;
+    font-size: 18px;
+}
+
+#searchsection #sbutton{
+    height:38px;
+    border-radius:5px;
+    color:green;
+    font-weight: bold;
+}
+#searchsection #sbutton:hover{
+    background-color: green;
+    color:white;
+}
+
+.plantcards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 24px;
+     
+    
+    width: 100%;
+   
+    padding: 50px;
+    border: 10px solid green;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+.searchcard{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:550px;
+    max-width: 100%;
+    border:5px solid green;
+    border-radius:18px;
+    margin:12px auto;
+    padding: 15px;
+    font-size :  20px;
+    box-sizing: border-box;
+    box-shadow: 0cqb 4px 12px rgba(0, 128, 0, 0.1);
+    overflow: hidden;
+
+
+}
+.card{
+    display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:550px;
+    max-width: 100%;
+    border:5px solid green;
+    border-radius:18px;
+    margin:12px auto;
+    padding: 15px;
+    font-size :  20px;
+    box-sizing: border-box;
+    box-shadow: 0cqb 4px 12px rgba(0, 128, 0, 0.1);
+    overflow: hidden;
+   
+}
+.card img{
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.card1 img{
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card div {
+    margin:8px;
+    width: 100%;
+}
+.card1{
+    display :flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:550px;
+    max-width: 100%;
+    border:5px solid green;
+    border-radius:18px;
+    margin:12px auto;
+    padding: 15px;
+    font-size :  20px;
+    box-sizing: border-box;
+    box-shadow: 0cqb 4px 12px rgba(0, 128, 0, 0.1);
+    overflow: hidden;
+}
+.newdiv{
+    border: 0cap;
+    width: 550px;
+    height: 20px;
+}
+
+.card1 div{
+    margin:8px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+i{
+    color: green;
+}
+body{
+    overflow-x: hidden;
+}
+.add-section::before{
+    content:"";
+    position: absolute;
+    background: url(plantcare.jpg)no-repeat center center/cover;
+    top: 10;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+.add-section{
+    display:block;
+    margin:auto;
+    position:relative;
+    font-size: large;
+    width:97.5%;
+    height: 80vh;
+    padding: 10px;
+    border: 10px solid green;
+    border-radius: 8px;
+    margin: 24px;
+}
